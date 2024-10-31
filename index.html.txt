@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Interactivo con Leaflet</title>
+    <!-- Agrega los estilos de Leaflet desde su CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map {
+            width: 100%;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mi Mapa Interactivo</h1>
+    <!-- Div donde aparecerá el mapa -->
+    <div id="map"></div>
+    
+    <!-- Agrega el script de Leaflet desde su CDN -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="mi_mapa.js"></script> <!-- Enlace al archivo JavaScript -->
+</body>
+</html>
